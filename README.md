@@ -21,7 +21,7 @@
         event.preventDefault();
 
         const username = usernameInput.value;
-        const apiUrl = `http://localhost:8080/https://torre.bio/api/bios/`+username;
+        const apiUrl = `https://diego-alvarez-eguren.github.io/https://torre.bio/api/bios/`+username;
 
         fetch(apiUrl)
           .then(response => response.json())
